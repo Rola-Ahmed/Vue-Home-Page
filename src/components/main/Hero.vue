@@ -1,7 +1,7 @@
 <template>
     <div class=" bg-hero h-100 w-100 bg-ingo m-auto">
         <div class="h-100 d-flex justify-content-center align-items-end mt-4">
-        <div class="w-50 text-center m-auto d-grid gap-4">
+        <div class=" text-center m-auto d-grid gap-4 hero-text-cont">
             <h1 class="heroTitle text-white">Your own NFT Market place without Coding</h1>
         <p class="text-white m-auto w-75"> The fastest and easiest way to fully unlock the potential of your digital assets. Create and run an exclusive marketplace for your NFT business today!</p>
     

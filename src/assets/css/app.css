@@ -132,3 +132,15 @@ footer p.n-text {
 .row-slider {
     padding: 6% 0;
 }
+
+.hero-text-cont{
+    width: 50%;
+}
+
+
+@media (max-width :767px) {
+    
+    .hero-text-cont{
+
+    }
+}

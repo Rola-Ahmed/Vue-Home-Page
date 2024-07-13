@@ -6,18 +6,18 @@
 
       <div class="h-100 d-flex justify-content-center align-items-center">
         <div class="d-grid gap-3">
-          <h1 class="text-white mx-2">“Moddy Character NFT “
+          <h1 class="text-white mx-2 text-md-start text-center">“Moddy Character NFT “
 The image is a high-quality digital painting with a resolution of 3000x2000 pixels and is optimized for the web.
 $101,593</h1>
 
-<img alt="img" :src="rArrow"/>
+<img alt="img" :src="rArrow"  class="mb-sm-4 ms-sm-2"/>
 
         </div>
       </div>
     </div>
     <div class="col-md-5 col-12">
       <div class="col-img m-auto">
-        <img class="w-100 h-100" alt="img" :src="slider2"/>
+        <img class="w-100 h-100" alt="img" :src="slider1" />
       </div>
     </div>
    </div>
@@ -26,13 +26,13 @@ $101,593</h1>
   </template>
       
       <script>
-        import {  slider2,rArrow} from "../constants/images.js"; //
+        import {  slider1,rArrow} from "../constants/images.js"; //
 
       export default {
         name: 'RowsSec',
         data() {
     return {
-      slider2:slider2,
+      slider1:slider1,
       rArrow:rArrow,
     }
       }
