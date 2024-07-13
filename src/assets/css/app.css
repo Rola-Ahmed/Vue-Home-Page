@@ -133,14 +133,38 @@ footer p.n-text {
     padding: 6% 0;
 }
 
-.hero-text-cont{
+.hero-text-cont {
     width: 50%;
 }
 
 
-@media (max-width :767px) {
-    
-    .hero-text-cont{
+@media (max-width :1178.98px) {
 
+    .hero-text-cont {
+        width: 70%;
+    }
+}
+
+@media (max-width :723.98px) {
+
+    .heroTitle {
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: center;
+    }
+}
+
+@media (max-width :425.98px) {
+    .hero-text-cont {
+        width: 100%;
+       padding: 0px 15px;
+    }
+
+    .heroTitle {
+        font-size: 7vw;
+        font-weight: 700;
+        line-height: 45px;
+        text-align: center;
     }
 }
