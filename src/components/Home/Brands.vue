@@ -41,10 +41,8 @@
       <style scoped>
 .brands {
 background-color: var(--secondary-color);
-height: 83px;
+min-height: 83px;
 opacity: 0.7px;
-/* grid-template-columns: auto auto auto; */
-/* flex-wrap: wrap; */
 margin-top: 104px;
 }
 
