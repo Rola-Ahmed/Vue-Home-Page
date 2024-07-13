@@ -1,13 +1,13 @@
 <template>
   <div class=" bg-black row-slider">
     <div class="container">
-   <div class="  row w-100">
-    <div class="col-md-6 col-12">
+   <div class="  row w-100 justify-content-between">
+    <div class="col-md-5 col-12">
       <div class="col-img m-auto">
         <img class="w-100 h-100" alt="img" :src="slider2"/>
       </div>
     </div>
-    <div class="col-md-6 col-12">
+    <div class="col-md-5 col-12">
 
       <div class="h-100 d-flex justify-content-center align-items-center">
         <div class="d-grid gap-3">

@@ -1,8 +1,8 @@
 <template>
   <div class=" bg-black row-slider">
     <div class="container">
-   <div class="  row w-100">
-    <div class="col-md-6 col-12">
+   <div class="  row w-100 justify-content-between">
+    <div class="col-md-5 col-12">
 
       <div class="h-100 d-flex justify-content-center align-items-center">
         <div class="d-grid gap-3">
@@ -15,9 +15,9 @@ $101,593</h1>
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-12">
+    <div class="col-md-5 col-12">
       <div class="col-img m-auto">
-        <img class="w-100 h-100" alt="img" :src="slider1"/>
+        <img class="w-100 h-100" alt="img" :src="slider2"/>
       </div>
     </div>
    </div>
@@ -26,16 +26,14 @@ $101,593</h1>
   </template>
       
       <script>
-        import { slider1 ,slider2,rArrow,lArrow} from "../constants/images.js"; //
+        import {  slider2,rArrow} from "../constants/images.js"; //
 
       export default {
         name: 'RowsSec',
         data() {
     return {
-      slider1: slider1,
       slider2:slider2,
       rArrow:rArrow,
-      lArrow:lArrow
     }
       }
     }
