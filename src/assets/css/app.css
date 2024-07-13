@@ -44,6 +44,10 @@ nav {
 
 }
 
+.navbar-collapse.collapse.show {
+    background-color: black;
+}
+
 
 .nav-link {
     font-family: "Poppins" !important;
@@ -147,7 +151,7 @@ footer p.n-text {
 }
 
 @media (max-width :455.98px) {
-    .brand-title{
+    .brand-title {
 
         font-size: 6vw !important;
     }
