@@ -1,5 +1,5 @@
 <template>
-   <div class="brands w-100  d-flex justify-content-around  align-items-center flex-wrap" >
+   <div class="brands w-100  gap-2 d-flex justify-content-around  align-items-center flex-wrap px-md-2" >
 
    
     <div>

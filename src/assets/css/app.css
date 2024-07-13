@@ -138,6 +138,22 @@ footer p.n-text {
 }
 
 
+@media (max-width :717.98px) {
+    .brands {
+
+        padding: 14px 22px
+    }
+
+}
+
+@media (max-width :455.98px) {
+    .brand-title{
+
+        font-size: 6vw !important;
+    }
+
+}
+
 @media (max-width :1178.98px) {
 
     .hero-text-cont {
@@ -158,7 +174,7 @@ footer p.n-text {
 @media (max-width :425.98px) {
     .hero-text-cont {
         width: 100%;
-       padding: 0px 15px;
+        padding: 0px 15px;
     }
 
     .heroTitle {

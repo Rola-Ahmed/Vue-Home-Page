@@ -5,12 +5,12 @@
     <div class="col-md-5 col-12">
 
       <div class="h-100 d-flex justify-content-center align-items-center">
-        <div class="d-grid gap-3">
+        <div class="d-grid gap-3  mb-4">
           <h1 class="text-white mx-2 text-md-start text-center">“Moddy Character NFT “
 The image is a high-quality digital painting with a resolution of 3000x2000 pixels and is optimized for the web.
 $101,593</h1>
 
-<img alt="img" :src="rArrow"  class="mb-sm-4 ms-sm-2"/>
+<img alt="img" :src="rArrow"  class="mb-sm-4  ms-sm-2"/>
 
         </div>
       </div>
